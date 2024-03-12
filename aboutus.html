@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Asura - Home" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="img\logo.png" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="" />
+    <meta property="twitter:creator" content="" />
+
+    <title>Asure Nova - Главная</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="canonical" href="" />
+
+    <!-- StyleSheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" />
+    <link rel="stylesheet" href="css/asurenova.css" />
+  </head>
+
+  <body>
+    <!-- Предзагрузка -->
+    <div id="loader">
+      <div class="preloader-background"></div>
+      <div class="preloader">
+        <img class="center-image" src="img/small-logo.png" draggable="false" alt="Asure Nova Logo" />
+        <div class="status">
+          <br />
+          <h1>Загрузка...</h1>
+          <br />
+          <noscript>Запустите JavaScript и перезагрузите страницу.<br /></noscript>
+          Ничего не делайте. Вы будете перенаправлены на запрашиваемую страницу в блийжшее время.
+          <br />
+          Пожалуйста, подождите...
+        </div>
+      </div>
+    </div>
+
+    <main id="page">
+      <!-- Топ страницы -->
+      <div class="mobile-display">
+        <div class="mobile-mask"></div>
+        <div class="mobile-navbar">
+          <div class="mobile-navbar-header">
+            <div class="mobile-navbar-close mt-3">
+              <span class="js-menu-toggle"><i class="bx bx-x-circle"></i></span>
+            </div>
+          </div>
+          <div class="mobile-navbar-body"></div>
+        </div>
+      </div>
+
+      <header id="header" class="desktop-navbar" role="banner">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-11 col-xl-2">
+              <img class="navbar-brand" src="img/logo.png" draggable="false" alt="Asure Nova Logo" />
+            </div>
+            <div class="col-12 col-md-10 d-none d-xl-block">
+              <nav class="site-navigation position-relative text-right" role="navigation">
+                <ul class="navbar-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <li>
+                    <a href="index.html" class="no-effect"><span>Главная</span></a>
+                  </li>
+                  <li>
+                    <a href="#about" class="no-effect active"><span>О нас</span></a>
+                  </li>
+                  <li>
+                    <a href="#about" class="no-effect"><span>Помощь</span></a>
+                  </li>
+                  <li>
+                    <a href="#screens" class="no-effect"><span>Галерея</span></a>
+                  </li>
+                  <li>
+                    <a href="rulesasurenova.html" class="no-effect"><span>Правила</span></a>
+                  </li>
+                  <li>
+                    <a href="donateasurenova.html" class="no-effect"><span>Донат</span></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="mobile-menu-toggle d-xl-none">
+            <a href="#" class="js-menu-toggle no-effect">
+              <span class="h1"><i class="bx bx-menu"></i></span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Куки -->
+      <div id="cookie-popup" style="display: none">
+        <div class="text-center" id="cookie-header">
+          <img src="img/icons/cookie.png" draggable="false" />
+        </div>
+        <div id="cookie-body">
+          <p>Этот веб-сайт использует файлы cookie для обеспечения наилучшего пользовательского опыта на нашем веб-сайте..</p>
+          <a href="https://www.cookieconsent.com/what-are-cookies/">Узнать больше...</a>
+          <div class="cookie-buttons">
+            <button id="btn-cookie" type="submit">Принять</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Топ -->
+      <section id="intro">
+        <div id="intro-image"></div>
+        <div id="intro-overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-sm-pull-12 animate__animated animate__fadeInLeft">
+              <h1 class="section-title animate__animated animate__fadeInDown">Добро пожаловать<br />в уютную лапу</h1>
+              <p class="animate__animated animate__fadeInLeft">Наш приют <b>Помогите нам сделать мир лучше!</b></p>
+              <button id="copyadress"  value="адрес"  title="IP скопирован">Скопировать адрес</button>
+              <!--<button class="server-status animate__animated animate__fadeInLeft">Онлайн</button>-->
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 justify-content-center text-center col-sm-push-12 animate__animated animate__fadeInRight">
+              <img class="server-image" src="img/small-logo.png" draggable="false" />
+            </div>
+          </div>
+          <div class="text-center arrow animate__animated animate__fadeInUp">
+            <a href="#about">
+            <img  id="intro-arrow" class="bounce animated hinge animated infinite" src="img/icons/chevron-down.png" draggable="false" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Alert -->
+      <section class="container" role="alert">
+        <div class="alert">
+          <div class="alert-icon">
+            <svg class="alert-icon-svg" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" style="color: var(--orange-color)">
+              <g>
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12" y2="16"></line>
+              </g>
+            </svg>
+          </div>
+          <p class="alert-textbox">
+            <span class="alert-text">
+              <span>
+                <span><b>Прочтите правила сервера</b> Незнание правил не освобождает от ответственности</span>
+              </span>
+            </span>
+          </p>
+          <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/about.png" class="logo" draggable="false" alt="" />
+          </div>
+          <div class="col-md-8">
+            <div class="mg-top-40">
+              <h4 class="section-title">НАСЛЕДИЕ РОЗАРИО<strong>ДОЛГОЖДАННЫЙ РАССВЕТ</strong></h4>
+              <div class="about-us">
+                <Hugep>Энтропическая война подошла к концу</Hugep>
+                <p>Две сотни лет Объединённая Айзенская Империя сражалась против полчищ порождений Энтропии, и наконец, при поддержке Трёх Принципов, создавших мир людей, им удалось заточить Энтропию в глубинах мира. Мир вступил в новую эпоху, свободную от страха и сожалений - эпоху Рассвета.</p> 
+                  
+                  <Hugep>Новая эпоха принесла множество перемен</Hugep>
+                  
+                  <p>Не имея более общего врага, Айзенская Империя начала угасать, и всего за несколько лет оказалась разделена на отдельные государства. На место чудовищ пришли бандиты и дикие звери, а сокрытые культы в тайне продолжают свои тёмные дела. Возникновение в результате вмешательства "Трёх" новой энергии на замену Энтропии - Асуры - значительно изменило обыденный порядок всех людей - и тем не менее, жизнь продолжается.</p>
+                  <Hugep> Прошло 5 лет с начала эпохи Рассвета</Hugep> 
+                  
+                  <p>Будучи одним из Владеющих Асурой - одним из людей, способных напрямую использовать её энергию - вам открыто множество путей. Станете ли вы великим воином, продолжающим традиции героев прошлого? Влиятельным торговцем, каждый день совершающим невероятные сделки? Или же создадите собственную общину и будете вести тихую жизнь вдали от лучей славы? Выбор полностью за вами.</p> 
+                <p>Найдите свой путь, создайте собственную историю.
+                  <p>Это - ваш новый мир.</p>
+                  <Hugep>Это - Асура Нова.</Hugep><p></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" fill="#131417" stroke="#131417" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z" />
+      </svg>
+
+      <!-- Screens -->
+      <section id="screens">
+        <div class="screens-background">
+          <div class="container">
+            <h4 class="section-title"><strong>Наши особенности</strong></h4>
+            <div class="swiper screens-swiper">
+              <div class="swiper-wrapper screens-cards">
+                <div class="swiper-slide active">
+                  
+                    <img src="img/screens/asurenovascreen.jpg" draggable="false" alt="" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  
+                    <img src="img/screens/tavern.jpg" draggable="false" alt="" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  
+                    <img src="img/screens/cave.jpg" draggable="false" alt="" />
+                  </a>
+                 <!-- <div class="slider-item-detail"> 
+                    <h3>Prison</h3>
+                    <h4>Локация | Еще шушуть</h4>
+                  </div> Комментарии -->
+                </div>
+                <div class="swiper-slide">
+                  
+                    <img src="img/screens/farm.jpg" draggable="false" alt="" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  
+                    <img src="img/screens/weapon.jpg" draggable="false" alt="" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  
+                    <img src="img/screens/skillxp.jpg" draggable="false" alt="" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  
+                    <img src="img/screens/snow.jpg" draggable="false" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <p></p>
+                <Hugep>Асура Нова - обновлённый проект в жанре Survival-RPG</Hugep> 
+                <ol><li>Практически полностью сохранённый геймплей предыдущего проекта, - связанный с выживанием</li>
+                    <li>Изменённая система снаряжения, оружия и их улучшения</li>
+                    <li>Система характеристик, влияющих на различные элементы игры</li>
+                    <li>Система навыков с повышением уровня при совершении различных действий</li>
+                    <li>Активируемые умения, становящиеся подспорьем в сражениях, исследованиях и добыче ресурсов</li>
+                    <li>Особые локации с опасными монстрами и ценными ресурсами</li>
+                    <li>Система гильдий и групп</li>
+                    <li>Переработанные маркеты игроков, улучшенная система торговли с NPC</li>
+                    <li>Обновлённые механики сражения с боссами и на моб-арене</li>
+                    <li>Интеграция с Discord с возможностью общения с игроками на сервере и просмотра своего снаряжения без необходимости входа в игру</li>
+                    <li>Награды за активное участие в развитии сервера</li>
+                  </ol>
+              </div>
+              <div class="screens-swiper-button-prev"><i class="bx bx-chevron-left"></i></div>
+              <div class="screens-swiper-button-next"><i class="bx bx-chevron-right"></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" fill="#131417" stroke="#131417" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z" />
+      </svg>
+
+
+
+
+   
+
+
+
+
+      <!-- Partners 
+      <section id="partner">
+        <div class="partner-background">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 justify-content-center text-center">
+                <img class="partner-image" src="img/logo.png" draggable="false" alt="" />
+              </div>
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                <h4 class="section-title">Вопросы, отзывы и предложения <strong>Пишите нам</strong></h4>
+                <div>
+                  <p>Если у вас и тд</p>
+                  <a class="button" href="#">Напишите нам</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper partner-swiper">
+              <div class="swiper-wrapper partner-cards customer-logos text-center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+       <!--<svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" fill="#131417" stroke="#131417" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z" />
+      </svg> -->
+
+      <!-- Отзывы -->
+      <section id="testimonials">
+        <div class="testimonials-background">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                <h4 class="section-title"><strong>Донат на сервере</strong></h4>
+                <p>Золотая пыль - особая валюта, с помощью которой возможно приобретать различные товары в донат-магазине сервера.</p>
+                <p>Чтобы открыть донат-магазин, используйте команду /donate.</p>
+                <p>   </p>
+                <p>   </p>
+                <a class="button" href="donateasurenova.html">Открыть магазин</a>
+              </div>
+              
+              <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                <div class="swiper testimonials-swiper">
+                  <div class="swiper-wrapper testimonials-cards">
+                    <div class="swiper-slide testimonials-card">
+                      <img src="\img\social\timeless.png" draggable="false" alt="Screech Avatar" />
+                      <h5>Золотая Пыль</h5>
+                      <div>
+                        <p6>75 шт - 149 рублей</p6>
+                      </div>
+                    </div>
+
+
+                    <div class="swiper-slide testimonials-card">
+                      <img src="\img\social\timeless.png" draggable="false" alt="Screech Avatar" />
+                      <h5>Золотая Пыль</h5>
+                      <div>
+                        <p6>170 шт - 299 рублей</p6>
+                      </div>
+                    </div>
+                    
+                    <div class="swiper-slide testimonials-card">
+                      <img src="\img\social\timeless.png" draggable="false" alt="Screech Avatar" />
+                      <h5>Золотая Пыль</h5>
+                      <div>
+                        <p6>370 шт - 599 рублей</p6>
+                      </div>
+                    </div>
+
+
+                    <div class="swiper-slide testimonials-card">
+                      <img src="\img\social\timeless.png" draggable="false" alt="Screech Avatar" />
+                      <h5>Золотая Пыль</h5>
+                      <div>
+                        <p6>800 шт - 1199 рублей</p6>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide testimonials-card">
+                      <img src="\img\social\timeless.png" draggable="false" alt="Screech Avatar" />
+                      <h5>Золотая Пыль</h5>
+                      <div>
+                        <p6>1350 шт - 1999 рублей</p6>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide testimonials-card">
+                      <img src="\img\social\timeless.png" draggable="false" alt="Screech Avatar" />
+                      <h5>Золотая Пыль</h5>
+                      <div>
+                        <p6>3500 шт - 4999 рублей</p6>
+                      </div>
+                    </div>
+
+                   
+                    </div>
+                  </div>
+                  <div>
+                    <div class="testimonials-buttons">
+                      <button class="testimonials-swiper-button-prev"><img src="img/icons/sort-left.png" draggable="false" /></button>
+                      <button class="testimonials-swiper-button-next"><img src="img/icons/sort-right.png" draggable="false" /></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" fill="#131417" stroke="#131417" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z" />
+      </svg>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-about">
+            <h3></h3>
+            <span></span>
+          </div>
+          <div class="footer-social">
+            <img src="img/logo.png" draggable="false" alt="Hypixel Logo" />
+            <span class="copyright">
+              ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Asure Nova
+            </span>
+            <div class="socials">
+              <a href="https://discord.gg/AzFsKUW" class="discord"><i class="bx bxl-discord-alt"></i></a>
+              <a href="https://vk.com/asurenova" class="vk"><i class="bx bxl-vk"></i></a>
+            </div>
+          </div>
+          <!--<div class="footer-store">
+            <h3>Донат магазин</h3>
+            <span>По кнопке ниже вы можете купить "Золотую пыль", которая используется для приобритения предметов и привилегий на сервере.</span>
+            <a href="#" class="button">Открыть магазин</a>
+          </div>-->
+        </div>
+      </footer>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/asurenova.js"></script>
+  </body>
+</html>

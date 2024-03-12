@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Asura - Home" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="img\logo.png" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="" />
+    <meta property="twitter:creator" content="" />
+
+    <title>Уютная лапа - О нас</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="canonical" href="" />
+
+    <!-- StyleSheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" />
+    <link rel="stylesheet" href="css/asurenova.css" />
+  </head>
+
+  <body>
+    <!-- Предзагрузка -->
+    <div id="loader">
+      <div class="preloader-backgroundcave"></div>
+      <div class="preloader">
+        <img class="center-image" src="img/small-logo.png" draggable="false" alt="Asure Nova Logo" />
+        <div class="status">
+          <br />
+          <h1>Загрузка...</h1>
+          <br />
+          <noscript>Запустите JavaScript и перезагрузите страницу.<br /></noscript>
+          Ничего не делайте. Вы будете перенаправлены на запрашиваемую страницу в блийжшее время.
+          <br />
+          Пожалуйста, подождите...
+        </div>
+      </div>
+    </div>
+
+    <main id="page">
+      <!-- Топ страницы -->
+      <div class="mobile-display">
+        <div class="mobile-mask"></div>
+        <div class="mobile-navbar">
+          <div class="mobile-navbar-header">
+            <div class="mobile-navbar-close mt-3">
+              <span class="js-menu-toggle"><i class="bx bx-x-circle"></i></span>
+            </div>
+          </div>
+          <div class="mobile-navbar-body"></div>
+        </div>
+      </div>
+
+      <header id="header" class="desktop-navbar" role="banner">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-11 col-xl-2">
+              <img class="navbar-brand" src="img/logo.png" draggable="false" alt="Asure Nova Logo" />
+            </div>
+            <div class="col-12 col-md-10 d-none d-xl-block">
+              <nav class="site-navigation position-relative text-right" role="navigation">
+                <ul class="navbar-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <li>
+                    <a href="index.html" class="no-effect"><span>Главная</span></a>
+                  </li>
+                  <li>
+                    <a href="aboutus.html" class="no-effect"><span>О нас</span></a>
+                  </li>
+                  <li>
+                    <a href="aboutus.html" class="no-effect "><span>Поговорим</span></a>
+                  </li>
+                  <li>
+                    <a href="rulesasurenova.html" class="no-effect "><span>Правила</span></a>
+                  </li>
+                  <li>
+                    <a href="#testimonials" class="no-effect active"><span>Донат</span></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="mobile-menu-toggle d-xl-none">
+            <a href="#" class="js-menu-toggle no-effect">
+              <span class="h1"><i class="bx bx-menu"></i></span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Куки -->
+      <div id="cookie-popup" style="display: none">
+        <div class="text-center" id="cookie-header">
+          <img src="img/icons/cookie.png" draggable="false" />
+        </div>
+        <div id="cookie-body">
+          <p>Этот веб-сайт использует файлы cookie для обеспечения наилучшего пользовательского опыта на нашем веб-сайте..</p>
+          <a href="https://www.cookieconsent.com/what-are-cookies/">Узнать больше...</a>
+          <div class="cookie-buttons">
+            <button id="btn-cookie" type="submit">Принять</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Топ -->
+      <section id="intro">
+        <div id="intro-image3"></div>
+        <div id="intro-overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-sm-pull-12 animate__animated animate__fadeInLeft">
+              <h1 class="section-title animate__animated animate__fadeInDown">А шо ты тут делаешь<br /></h1>
+              <p class="animate__animated animate__fadeInLeft">Тут ничего нет,  <b>кыш</b></p>
+              <button id="copyadress"  value="asurenova.online">Скопировать IP сервера</button>
+              <!--<button class="server-status animate__animated animate__fadeInLeft">Онлайн</button>-->
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 justify-content-center text-center col-sm-push-12 animate__animated animate__fadeInRight">
+              <img class="server-image" src="img/small-logo.png" draggable="false" />
+            </div>
+          </div>
+          <div class="text-center arrow animate__animated animate__fadeInUp">
+            <a href="#about">
+            <img id="intro-arrow" class="bounce animated hinge animated infinite" src="img/icons/chevron-down.png" draggable="false" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+     
+
+      <!-- About -->
+      <section id="about" class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/about.png" class="logo" draggable="false" alt="" />
+          </div>
+          <div class="col-md-8">
+           <div class="mg-top-40">
+              <h4 class="section-title">Ниже находятся разделы правил - нажми на них, чтобы изучить</h4>
+          <div class="col-md-8">
+            <div class="mg-top-40">
+              <button2 class="collapsible">ОСНОВНЫЕ ПРАВИЛА СЕРВЕРА</button2>
+                  <div class="content">
+                <p>1.1 Любой человек, прошедший регистрацию, автоматически соглашается с этим сводом правил и обязуется выполнять их. </p>
+                <p>1.1.1 Незнание правил не освобождает от ответственности. </p>
+                <p>1.2 Каждый администратор имеет право на редактирование данного свода правил в любое время суток без уведомления игроков.</p>
+                <p>1.3 Администрация игрового сервера имеет полное право заблокировать ваш аккаунт за нарушение того или иного пункта данного свода правил. </p>
+                <p>1.4 Запрещено выдавать себя за администрацию и модерацию сервера.</p>
+                <p>1.5 Запрещен шантаж игроков.</p>
+                <p>1.6 Ни при каких условиях администратор не обязан возвращать вам то, что вы утратили в следствии какой-либо ситуации (Баг, откат, вайп, кража, очистка и т.д.). </p>
+                <p>1.7 Ни при каких условиях администратор не обязан возвращать вам утраченные вещи, которые вы добыли в следствии игрового процесса.</p>
+                <p></p>
+                </div>
+
+                <button2 class="collapsible">Правила поведения игроков на сервере</button2>
+                    <div class="content">
+                      <p>2.0 Игрок не имеет права материться (завуалированный мат), оскорблять кого-либо, унижать честь и достоинство, ущемлять в правах игроков, обсуждать непристойные темы, троллить игроков и т.п.
+                        Наказание: Мут от 15 минут до 24 часов. Если на игрока поступит жалоба в отсутствии на сервере чат-модераторов, время мута увеличивается в пять раз.</p>
+                    <p>2.1.1 Запрещено оскорбление родителей и родственников игрока.
+                        Наказание: Мут от 15 минут до 24 часов.</p>
+                    <p>2.1.2. Запрещено использовать ники оскорбительного содержания или содержащие нецензурные выражения.
+                        Наказание: Принудительное удаление аккаунта. При возможности данные старого аккаунта могут перенесены на новый.</p>
+                    <p>2.2 Игрок не имеет права оскорблять, неконструктивно критиковать модераторов/администрацию и игровой проект в целом.
+                        Наказание: Бан от трёх дней до вечного бана.</p>
+                    <p>2.3 Запрещена реклама сторонних ресурсов, упоминание каких-либо игр в сообщениях, на табличках,
+                        постройках с целью рекламы. Запрещено отправлять в чат ссылки на ресурсы, не связанные с сервером. Наказание: Бан от трёх дней до вечного бана.</p>
+                    <p>2.4 Запрещен флуд (Более 3 одинаковых и однотипных сообщений в открытом чате), Caps (Сообщения в верхнем регистре), спам.
+                        Наказание: Мут от 15 минут до 24 часов.</p>
+                    <p>2.4.1 Запрещается вводить в заблуждение игроков, сообщая информацию о ложном вайпе и каких-либо изменениях по игровым серверам.
+                        Наказание: Бан от одного дня до недели.</p>
+                    <p>2.5 Запрещено строить какие-либо надписи, столбы (Высотой более 8-ми блоков), сооружения оскорбительного характера, постройки в воздухе. Наказание: бан от одного дня до недели.
+                    </p>
+                    <p>2.6 Запрещена продажа/передача игрового аккаунта за ресурсы или реальные ценности.
+                        Наказание: Вечный бан.</p>
+                    <p>2.7 Запрещено продавать ресурсы за реальные ценности.
+                        Наказание: Вечный бан.</p>
+                    <p>2.8 Запрещено использование читерских программ, багов, недоработок модификаций и плагинов, облегчающих или изменяющих игровой процесс.
+                        Наказание: Бан от трёх дней до вечного бана.</p>
+                    <p>2.8.1 Игрок не имеет права распространять информацию о любых недоработках системы (читерские программы, баги, дюпы и т.п.) и вводить в заблуждение модерацию/администрацию сообщениями: "Умею дюпать", "Скину читы" и прочее. Наказание: Бан от трёх дней до недели.</p>
+                    <p>2.9 Запрещено любое взаимодействие с предметами, которые были добыты нечестным путем (Дюп*), следует немедленно их сжечь, о недоработке сообщить администрации игрового сервера.
+                        За обнаружение бага полагается НАГРАДА.
+                        Наказание: Бан от трёх дней до вечности.</p>
+                    <p>2.10 Запрещено выпрашивать что-либо у игроков, модераторов, администрации сервера.
+                        Наказание: Мут от 3 часов до 24 часов.
+                        </p>
+                    <p>2.11 Запрещено неконструктивно или безосновательно оспаривать действия администрации в игре.
+                        Наказание: Бан от одного дня до недели.</p>
+                    <p>2.12 Запрещено строить конструкции, редстоун-схемы, нагружающие серверное оборудование.
+                        Наказание: Бан от трёх дней до вечности.</p>
+                    <p>2.13 Запрещено создавать ферму опыта и лута, которая использует для работы более 10 одновременно живущих мобов.
+                        Наказание: Снос конструкции, бан от одного дня до недели.
+                        </p>
+                    <p>2.15 Запрещено создавать второй и более аккаунт (Твинк, мульт) для обхода количества приватов или для иных целей.
+                        Наказание: Вечный бан твинка, бан от трёх дней до недели.</p>
+                    <p>2.17 Запрещено строить ловушки на точке /home либо /warp, способные убить игрока.
+                        Наказание: Бан от трёх дней до недели.</p>
+                    <p>2.18. Запрещено создавать ситуации, приводящие к проблемам с производительностью сервера или игрового клиента других игроков.
+                        Наказание: Бан от трёх дней до недели.</p>
+                    <p>2.19. Запрещены публичные раздачи игровых ценностей.
+                        Наказание: Бан до трёх дней.</p>
+                    <p>2.20. Запрещено иметь скин, содержащий оскорбительные или провокационные элементы.
+                        Наказание: Сброс скина, лишение возможности выбирать скин. При рецидиве - Перманентное лишение возможности выбирать скин, бан на три дня.</p>
+                    <p></p>
+                        </div>
+                      <button2 class="collapsible">Гриферство</button2>
+                    <div class="content">
+                      <p>3.0. Игрокам запрещено портить имущество других игроков, всячески мешать строительству, делать на привате что-либо без согласия владельца. Правило не действует, если привата нет или нарушитель добавлен в приват.
+                        Наказание: Бан от трёх дней до месяца.</p>
+                    <p>3.1. Игрокам запрещено портить территорию (без привата/с приватом) разлитием жидкостей, беспорядочно расставленными или выкопанными блоками, взрывами от атак Иссушителя. Запрещено копать глубокие прямые ямы.
+                        Наказание: Бан на три дня.</p>
+                    <p>3.2. Запрещён SpawnKill игроков (Убийство игроков на точке спавна/дома более трёх раз подряд).
+                        Убийство игрока, поставившего точку дома на вашем привате, не считается SpawnKill'ом.
+                        Наказание: Бан на три дня.</p>
+                    <p>3.3. Запрещено заливать чужие приваты жидкостями (Лава, вода). Запрещено строить столбы.
+                        Наказание: Снос конструкции, бан от трёх дней до месяца.</p>
+                    <p>3.4. Запрещено приватить постройки других игроков.
+                        Если игрок докажет, что постройка действительно его, то приват будет убран.</p>
+                    <p>3.5. Запрещено приватить территорию на расстоянии ближе 25 блоков от другого привата без разрешения его владельца.
+                        Наказание: Снос построек и удаление привата.</p>
+                    <p>3.6. Запрещено ставить точку дома (/sethome) на приватах других игроков без их согласия.
+                        Наказание: снос точки дома, бан на 12 часов.</p>
+                        </div>
+                        <button2 class="collapsible">Постройки и приваты</button2>
+                        <div class="content">
+                          <p>4. Запрещено строить постройки, не имеющие смысла, содержащие нецензурный подтекст, нарушающие физику или являющиеся примитивными (Землянки, столбы, летающие платформы и т.д.).
+                              Наказание: Снос конструкции, бан от трёх дней до недели.</p>
+                          <p>4.1. Запрещены постройки, рекламирующие другие проекты и названия (Надписи из блоков, на табличках и д.р.).
+                              Наказание: Снос постройки, вечный бан.</p>
+                          <p>4.2. Запрещены приваты, содержащие в названии нецензурную брань.
+                              Наказание: Предупреждение, при игнорировании предупреждения - бан на три дня, снос привата.</p>
+                          <p>4.3. Приваты игроков, не проявляющих игровой активности, могут быть снесены без предупреждения.</p>
+                              </div>
+                              <button2 class="collapsible">Администрация и Чат-модерация</button2>
+                        <div class="content">
+                          <p>5. Администрация и Чат-модерация должны обеспечивать комфортную игру и следить за соблюдением правил.</p>
+                          <p>5.1. За нарушение правил сервера администратор может наказывать игрока любым способом по своему усмотрению.</p>
+                          <p>5.2. Администратор имеет право принимать свои решения в случае внештатной ситуации.</p>
+                          <p>5.3. Администраторы и Чат-модераторы не имеют права злоупотреблять полномочиями.</p>
+                          <p>5.4. Участникам контент-команды сервера запрещено разглашать информацию, официально не анонсированную в источниках информации проекта.</p>
+                          <p>5.5. Участникам контент-команды запрещено разглашать личную информацию игроков (дата последнего входа, информация о том, кто ставил/изменял блоки и т.д.).</p>
+                              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--<svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" fill="#131417" stroke="#131417" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z" />
+      </svg> -->
+
+      
+
+      <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" fill="#131417" stroke="#131417" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z" />
+      </svg>
+
+
+
+
+   
+
+
+
+
+      <!-- Partners 
+      <section id="partner">
+        <div class="partner-background">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 justify-content-center text-center">
+                <img class="partner-image" src="img/logo.png" draggable="false" alt="" />
+              </div>
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                <h4 class="section-title">Вопросы, отзывы и предложения <strong>Пишите нам</strong></h4>
+                <div>
+                  <p>Если у вас и тд</p>
+                  <a class="button" href="#">Напишите нам</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper partner-swiper">
+              <div class="swiper-wrapper partner-cards customer-logos text-center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" fill="#131417" stroke="#131417" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z" />
+      </svg> -->
+
+      <!-- Отзывы 
+      <section id="testimonials">
+        <div class="testimonials-background">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                <h4 class="section-title"><strong>Отзывы о нас</strong></h4>
+                <p>Накинуть потом</p>
+                <a class="button" href="#">Оставьте отзыв</a>
+              </div>
+              <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                <div class="swiper testimonials-swiper">
+                  <div class="swiper-wrapper testimonials-cards">
+                    <div class="swiper-slide testimonials-card">
+                      <img src="https://cravatar.eu/avatar/SaintPQD/128.png" draggable="false" alt="Screech Avatar" />
+                      <h5>SaintPQD</h5>
+                      <div>
+                        <p>Да каефный сервак</p>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide testimonials-card">
+                      <img src="https://cravatar.eu/avatar/SaintPQD/128.png" draggable="false" alt="Screech Avatar" />
+                      <h5>SaintPQD</h5>
+                      <div>
+                        <p>Ну наманый сервер, сойдет</p>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide testimonials-card">
+                      <img src="https://cravatar.eu/avatar/SaintPQD/128.png" draggable="false" alt="Screech Avatar" />
+                      <h5>Ник</h5>
+                      <div>
+                        <p>Заглушка</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="testimonials-buttons">
+                      <button class="testimonials-swiper-button-prev"><img src="img/icons/sort-left.png" draggable="false" /></button>
+                      <button class="testimonials-swiper-button-next"><img src="img/icons/sort-right.png" draggable="false" /></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" fill="#131417" stroke="#131417" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z" />
+      </svg>-->
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-about">
+            <h3></h3>
+            <span></span>
+          </div>
+          <div class="footer-social">
+            <img src="img/logo.png" draggable="false" alt="Hypixel Logo" />
+            <span class="copyright">
+              ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Asure Nova
+            </span>
+            <div class="socials">
+              <a href="https://discord.gg/AzFsKUW" class="discord"><i class="bx bxl-discord-alt"></i></a>
+              <a href="https://vk.com/asurenova" class="vk"><i class="bx bxl-vk"></i></a>
+            </div>
+          </div>
+        
+        </div>
+      </footer>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/asurenova.js"></script>
+  </body>
+</html>
